@@ -1,22 +1,23 @@
 
 import 'dart:convert';
-import 'package:bacaan_sholat/model/model_niat.dart';
+
+import 'package:bacaan_sholat/model/model_surat.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' as rootBundle;
 
-class NiatSholat extends StatefulWidget {
-  const NiatSholat({Key? key}) : super(key: key);
+class SuratPendek extends StatefulWidget {
+  const SuratPendek({Key? key}) : super(key: key);
 
   @override
-  _NiatSholatState createState() => _NiatSholatState();
+  _SuratPendekState createState() => _SuratPendekState();
 }
 
-class _NiatSholatState extends State<NiatSholat> {
-  Future<List<Niat>> ReadJsonData() async {
+class _SuratPendekState extends State<SuratPendek> {
+  Future<List<Surat>> ReadJsonData() async {
     final jsondata =
-        await rootBundle.rootBundle.loadString('assets/data/sholatniat.json');
+        await rootBundle.rootBundle.loadString('assets/data/surat.json');
     final list = json.decode(jsondata) as List<dynamic>;
-    return list.map((e) => Niat.fromJson(e)).toList();
+    return list.map((e) => Surat.fromJson(e)).toList();
   }
 
   @override
@@ -52,14 +53,14 @@ class _NiatSholatState extends State<NiatSholat> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              "Tuntunan Sholat",
+                              "Surat Pendek",
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             ),
                             Text(
-                              "Niat sholat wajib 5 waktu",
+                              "belajar ngaji dan menghafal",
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 12,
@@ -78,7 +79,7 @@ class _NiatSholatState extends State<NiatSholat> {
                       bottomRight: Radius.circular(30),
                     ),
                     child: Image.asset(
-                      "assets/images/sholat.png",
+                      "assets/images/ayatkursi.png",
                       width: 200,
                     ),
                   ),
@@ -94,7 +95,7 @@ class _NiatSholatState extends State<NiatSholat> {
                     if (data.hasError) {
                       return Center(child: Text("${data.error}"));
                     } else if (data.hasData) {
-                      var items = data.data as List<Niat>;
+                      var items = data.data as List<Surat>;
                       return ListView.builder(
                           itemCount: items == null ? 0 : items.length,
                           itemBuilder: (context, index) {

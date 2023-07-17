@@ -1,29 +1,20 @@
+
 import 'dart:convert';
 import 'package:bacaan_sholat/model/model_doa.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' as rootBundle;
 
-class ModelDoa extends StatefulWidget {
-  const ModelDoa({Key? key}) : super(key: key);
-  
-  get latin => null;
-  
-  get name => null;
-  
-  get arabic => null;
-  
-  get terjemahan => null;
+class DoaHarian extends StatefulWidget {
+  const DoaHarian({Key? key}) : super(key: key);
 
   @override
-  _ModelDoaState createState() => _ModelDoaState();
-  
-  static fromJson(e) {}
+  _DoaHarianState createState() => _DoaHarianState();
 }
 
-class _ModelDoaState extends State<ModelDoa> {
-  Future<List> ReadJsonData() async {
+class _DoaHarianState extends State<DoaHarian> {
+  Future<List<ModelDoa>> ReadJsonData() async {
     final jsondata =
-        await rootBundle.rootBundle.loadString('assets/data/doaharian.json');
+        await rootBundle.rootBundle.loadString('assets/data/doa.json');
     final list = json.decode(jsondata) as List<dynamic>;
     return list.map((e) => ModelDoa.fromJson(e)).toList();
   }
@@ -61,14 +52,14 @@ class _ModelDoaState extends State<ModelDoa> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              "Doa Harian",
+                              "Do'a Harian",
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold),
                             ),
                             Text(
-                              "Bacaan Doa sehari hari",
+                              "Do'a sehari hari",
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 12,

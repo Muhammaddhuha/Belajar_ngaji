@@ -1,4 +1,6 @@
+import 'package:bacaan_sholat/page/doaharian_page.dart';
 import 'package:bacaan_sholat/page/niat_sholat_page.dart';
+import 'package:bacaan_sholat/page/suratpendek_page.dart';
 import 'package:flutter/material.dart';
 import 'package:bacaan_sholat/page/drawer.dart';
 
@@ -59,9 +61,15 @@ class _MainPageState extends State<MainPage> {
                 margin: EdgeInsets.all(10),
                 child: Expanded(
                   child: InkWell(
+
                     highlightColor: Colors.transparent,
                     splashColor: Colors.transparent,
-                    
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => DoaHarian()));
+                    },
                     child: Column(
                       children: [
                         Image(
@@ -87,7 +95,12 @@ class _MainPageState extends State<MainPage> {
                   child: InkWell(
                     highlightColor: Colors.transparent,
                     splashColor: Colors.transparent,
-                    
+                     onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => SuratPendek()));
+                    },
                     child: Column(
                       children: [
                         Image(
@@ -97,7 +110,7 @@ class _MainPageState extends State<MainPage> {
                         ),
                         SizedBox(height: 10),
                         Text(
-                          "Ayat Kursi",
+                          "Surat Pendek",
                           style: TextStyle(
                               fontSize: 14, fontWeight: FontWeight.bold),
                         ),

@@ -1,0 +1,87 @@
+[
+ {
+  "id": 1,
+  "name": "Do'a sebelum tidur",
+  "arabic": "بِاسْمِكَ اللهُمَّ أَحْيَا وَأَمُوْتُ",
+  "latin": "Bismika Allahumma ahyaa wa bismika amuut.",
+  "terjemahan": "Aku berniat shalat fardhu Shubuh dua raka'at menghadap kiblat karena Allah Ta'ala"
+ },
+ {
+  "id": 2,
+  "name": "Do'a bangun tidur",
+  "arabic": "الحَمْدُ لِلهِ الًّذِيْ أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُوْرُ",
+  "latin": "Alhamdulillahil ladzi ahyana ba'da ma amatana wa ilaihin nusyur.",
+  "terjemahan": "Segala puji bagi Allah, Tuhan yang menghidupkan kami setelah Ia mematikan kami. Kepada-Nya lah kebangkitan hari kiamat."
+ },
+ 
+ {
+  "id": 3,
+  "name": "Do'a masuk kamar mandi",
+  "arabic": "بِسْمِ اللهِ اللَّهُمَّ إنِّي أَعُوذُ بِك من الْخُبْثِ وَالْخَبَائِثِ",
+  "latin": "Bismillahi Allahumma inni a'udzu bika minal khubutsi wal khabaitsi",
+  "terjemahan": "Ya Allah, aku berlindung pada-Mu dari godaan iblis jantan dan betina."
+ },
+ {
+  "id": 4,
+  "name": "Do'a keluar kamar mandi",
+  "arabic": "الْحَمْدُ لِلهِ الذي أَذْهَبَ عَنِّيْ الْأَذَى وَعَافَانِيْ",
+  "latin": "Alhamdulillahi alladzi adzhaba 'anni al-adza wa'aafaani.",
+  "terjemahan": "Segala puji bagi Allah yang telah menghilangkan penyakit dari tubuhku dan menyehatkan aku."
+ },
+ {
+  "id": 5,
+  "name": "Do'a sebelum makan",
+  "arabic": "اللَّهُمَّ بَارِكْ لَناَ فِيْمَا رَزَقْتَنا وَقِنَا عَذَابَ النَّارِ، بِسْمِ اللهِ",
+  "latin": "Allahumma barik lana fi ma razaqtana wa qina adzaban nar, bismillah.",
+  "terjemahan": "Ya Allah, berkahilah kamu pada apa yang telah Engkau karuniakan dan lindungilah kami dari siksa neraka. Bismillah (atas nama Allah)."
+ },
+ {
+  "id": 6,
+  "name": "Do'a sesudah makan",
+  "arabic": "اَلْحَمْدُ لِلهِ الَّذِيْ أَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مِنَ المُسْلِمِيْنَ",
+  "latin": "Alhamdulillahilladzi ath'amana wa saqana wa ja'alana minal muslimin.",
+  "terjemahan": "Segala puji bagi Allah yang telah memberi kami makan dan telah memberi kami minum, dan menjadikan kamu termasuk orang yang patuh."
+ },
+ {
+  "id": 7,
+  "name": "Do'a keluar rumah",
+  "arabic": "بِسْمِ اللَّهِ، تَوَكَّلْتُ عَلَى اللَّهِ، لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ",
+  "latin": "Bismillaahi tawakkaltu'alallaah, laa haula wa laa quwwata illaa billaah.",
+  "terjemahan": "Dengan nama Allah, aku bertawakal kepada Allah, tiada daya dan kekuatan kecuali dengan pertolongan Allah."
+ },
+ {
+  "id": 8,
+  "name": "Do'a masuk rumah",
+  "arabic": "اللَّهُمَّ إِنِّى أَسْأَلُكَ خَيْرَ الْمَوْلِجِ وَخَيْرَ الْمَخْرَجِ باسْمِ اللَّهِ وَلجْنا، وباسْمِ اللَّهِ خَرَجْنا، وَعَلى اللَّهِ رَبِّنا تَوَكَّلْنا",
+  "latin": "Allahumma inni as'aluka khairal mauliji wa khairal makhraji bismillahi walajna wa bismillahi kharajna wa'ala-llahi rabbina tawakkalna.",
+  "terjemahan": "Wahai Allah, aku memohon sebaik-baik tempat masuk dan sebaik-baik tempat keluar. Atas nama-Mu kami masil dan atas nama-Mu kami keluar. Dan kepada Allah, kami bertawakal."
+ },
+ {
+  "id": 9,
+  "name": "Do'a sebelum wudhu",
+  "arabic": "نَوَيْتُ الْوُضُوْءَ لِرَفْعِ الْحَدَثِ اْلاَصْغَرِ فَرْضًاِللهِ تَعَالَى",
+  "latin": "Nawaitul wudua lirof'il hadatsii ashghori fardhon lillaahi ta'alaa.",
+  "terjemahan": "Aku niat berwudu untuk menghilangkan hadas kecil, fardu karena Allah."
+ },
+ {
+  "id": 10,
+  "name": "Do'a setelah wudhu",
+  "arabic": "أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ. اللَّهُمَّ اجْعَلْنِى مِنَ التَّوَّابِينَ وَاجْعَلْنِى مِنَ الْمُتَطَهِّرِينَ",
+  "latin": "Asyhadu allaa ilaaha illallah wahdahu laa syariikalahu. Wa asyhadu anna Muhammadan'abduhu wa rasuuluhu. Allahumma-j alnii minattabinna waj alnii minal mutathohiirina waj alnii min 'ibadatishalihin.",
+  "terjemahan": "Aku bersaksi tiada Tuhan melainkan Allah dan tidak ada yang menyekutukan bagi-Nya. Dan aku bersaksi bahwa Nabi Muhammad adalah hamba-Nya dan utusan-Nya. Ya Allah jadikanlah aku orang yang ahli taubat dan jadikanlah aku orang yang suci dan jadikanlah aku dari golongan orang-orang yang saleh."
+ },
+ {
+  "id": 11,
+  "name": "Do'a masuk masjid",
+  "arabic": "أَعُوْذُ بِاللهِ العَظِيْمِ وَبِوَجْهِهِ الْكَرِيْمِ وَسُلْطَانِهِ الْقَدِيْمِ مِنَ الشَّيْطَانِ الرَّجِيْمِ. بِسْمِ اللهِ وَالْحَمْدُ لِلهِ. أَللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ. اَللَّهُمَّ اغْفِرْ لِي ذُنُوْبِي وَافْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+  "latin": "A'udzu billahil'azhim wa biwajhihil karim wa sulthanihil qadim minas syaithanir rajim. Bismillahi wal hamdulillah. Allahumma shalli wa salim'ala sayyidina muhammadin wa'ala ali sayyidina muhammadin. Allahummaghfirli dzunubi waftahli abwaba rahmatik.",
+  "terjemahan": "Aku berlindung kepada Allah Yang Maha Besar, kepada Dzat-Nya yang Maha Mulia, dan kepada kerajaan-Nya yang sedia dari setan yang terlontar. Dengan nama Allah dan segala puji bagi Allah. Wahai Tuhanku, berilah salawat dan sejahtera atas sayyidina Muhammad dan atas keluarga sayyidina Muhammad. Wahai Tuhanku, ampuni untukku segala dosaku. Buka lah bagiku segala pintu rahmat-Mu."
+ },
+ {
+  "id": 12,
+  "name": "Do'a keluar masjid",
+  "arabic": "أعُوْذُ بِاللهِ العَظِيْمِ وَبِوَجْهِهِ الْكَرِيْمِ وَسُلْطَانِهِ الْقَدِيْمِ مِنَ الشَّيْطَانِ الرَّجِيْمِ. بِسْمِ اللهِ وَالْحَمْدُ لِلهِ. أَللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ. اَللَّهُمَّ اغْفِرْ لِي ذُنُوْبِي وَافْتَحْ لِي أَبْوَابَ فَضْلِكَ",
+  "latin": "A'udzu billahil azhim wa biwajhihil karim wa sulthanihil qadim minas syaithanir rajim. Bismillahi walhamdulillah. Allahumma shalli wa sallim'ala sayyidina muhammadin wa'ala ali sayyidina Muhammadin. Allahummaghfirli dzunubi waftahli abwaba fadhlik.",
+  "terjemahan": "Aku berlindung kepada Allah Yang Maha Besar, kepada Dzat-Nya yang Maha Mulia, dan kepada kerajaan-Nya yang sedia dari setan yang terlontar. Dengan nama Allah dan segala puji bagi Allah. Wahai Tuhanku, berilah salawat dan sejahtera atas sayyidina Muhammad dan atas keluarga sayyidina Muhammad. Wahai Tuhanku, ampuni untukku segala dosaku. Buka lah bagiku segala pintu kemurahan-Mu."
+ },
+]

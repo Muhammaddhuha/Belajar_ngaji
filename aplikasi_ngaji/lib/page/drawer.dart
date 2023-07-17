@@ -27,9 +27,6 @@ class _SidebarState extends State<Sidebar> {
              color: Colors.black,
               fontWeight: FontWeight.bold),
             ),
-            currentAccountPicture: CircleAvatar(
-              backgroundImage: AssetImage('assets/images/profil.jpg'),
-            ),
             decoration: BoxDecoration(
               image: DecorationImage(
                 image: AssetImage('assets/images/desain1.jpg'),
@@ -37,13 +34,7 @@ class _SidebarState extends State<Sidebar> {
                 ),
             ),
           ),
-          ListTile(
-            leading: const Icon(Icons.account_circle),
-            title: Text('Profil'),
-            onTap: () {
-              Navigator.push(context, MaterialPageRoute(builder: (context) => const Profil()));
-            },
-          ), 
+
           ListTile(
             leading: const Icon(Icons.contact_mail),
             title: Text('Contact Us'),

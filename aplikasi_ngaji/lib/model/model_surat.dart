@@ -1,13 +1,13 @@
-class Niat {
+class Surat {
   int? id;
   String? name;
   String? arabic;
   String? latin;
   String? terjemahan;
 
-  Niat(this.id, this.name, this.arabic, this.latin, this.terjemahan);
+  Surat(this.id, this.name, this.arabic, this.latin, this.terjemahan);
 
-  Niat.fromJson(Map<String, dynamic> json) {
+  Surat.fromJson(Map<String, dynamic> json) {
     id = json['id'];
     name = json['name'];
     arabic = json['arabic'];
