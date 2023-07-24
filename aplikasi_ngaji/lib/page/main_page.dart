@@ -28,7 +28,7 @@ class _MainPageState extends State<MainPage> {
             children: [
               Container(
                 margin: EdgeInsets.all(10),
-                child: Expanded(
+                // child: Expanded(
                   child: InkWell(
                     highlightColor: Colors.transparent,
                     splashColor: Colors.transparent,
@@ -54,12 +54,12 @@ class _MainPageState extends State<MainPage> {
                       ],
                     ),
                   ),
-                ),
+              // ),
               ),
               SizedBox(height: 40),
               Container(
                 margin: EdgeInsets.all(10),
-                child: Expanded(
+                // child: Expanded(
                   child: InkWell(
 
                     highlightColor: Colors.transparent,
@@ -86,12 +86,12 @@ class _MainPageState extends State<MainPage> {
                       ],
                     ),
                   ),
-                ),
+                // ),
               ),
               SizedBox(height: 40),
               Container(
                 margin: EdgeInsets.all(10),
-                child: Expanded(
+                // child: Expanded(
                   child: InkWell(
                     highlightColor: Colors.transparent,
                     splashColor: Colors.transparent,
@@ -117,7 +117,7 @@ class _MainPageState extends State<MainPage> {
                       ],
                     ),
                   ),
-                ),
+                // ),
               ),
             ],
           ),

@@ -1,4 +1,4 @@
-package com.example.bacaan_sholat
+package stmik.ngaji.bacaan_sholat
 
 import io.flutter.embedding.android.FlutterActivity
 

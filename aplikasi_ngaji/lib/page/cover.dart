@@ -11,9 +11,9 @@ class Cover extends StatelessWidget {
       body: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
         Center(
           child: Image.asset(
-            'images/ayatkursi.png',
-            height: 150.0,
-            width: 130.0,
+            'assets/images/ayatkursi.png',
+            height: 130.0,
+            width: 100.0,
             fit: BoxFit.fill,
           ),
         ),
